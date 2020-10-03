@@ -69,7 +69,6 @@ const justify = (data) => {
 
 	const paragraphs = data.split('\n\n');
 	const output = [];
-	console.log(paragraphs.length);
 	for(let paragraph of paragraphs){
 		output.push(justify_paragraph(paragraph));
 	}
